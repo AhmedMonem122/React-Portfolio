@@ -16,18 +16,18 @@ import websiteAudit from "./assets/images/Services/website audit.png";
 import mobileFriendly from "./assets/images/Services/mobile friendly.png";
 import analytics from "./assets/images/Services/analytics.png";
 import creativeDesign from "./assets/images/Services/creative design.png";
-import eCommerce from "./assets/images/Services/e-commerce.png";
+import eCommercePhoto from "./assets/images/Services/e-commerce.png";
 import contentManagement from "./assets/images/Services/content management.png";
 
-import eCommerceProject from "./assets/images/projects/e-commerce project.png";
-import crudJsonServer from "./assets/images/projects/crud json server.png";
-import moviesApp from "./assets/images/projects/movies application.png";
-import shoppingCart from "./assets/images/projects/shopping cart.png";
-import todoList from "./assets/images/projects/todolist.png";
-import crudJS from "./assets/images/projects/crud js.png";
-import yummyBootstrap from "./assets/images/projects/Yummy bootstrap.png";
-import devFolioProject from "./assets/images/projects/devfolio project.png";
-import person_project from "./assets/images/projects/Ahmed Monem 2.jpg";
+import eCommerceProject from "./assets/images/Projects/e-commerce project.png";
+import crudJsonServer from "./assets/images/Projects/crud json server.png";
+import moviesApp from "./assets/images/Projects/movies application.png";
+import shoppingCart from "./assets/images/Projects/shopping cart.png";
+import todoList from "./assets/images/Projects/todolist.png";
+import crudJS from "./assets/images/Projects/crud js.png";
+import yummyBootstrap from "./assets/images/Projects/Yummy bootstrap.png";
+import devFolioProject from "./assets/images/Projects/devfolio project.png";
+import person_project from "./assets/images/Projects/Ahmed Monem 2.jpg";
 
 import avatar1 from "./assets/images/Testimonials/avatar1.png";
 import avatar2 from "./assets/images/Testimonials/avatar2.png";
@@ -169,7 +169,7 @@ export const content = {
       {
         title: "E-commerce",
         para: "Integration of eCommerce platforms, payment gateways, custom product templates, and more.",
-        logo: eCommerce,
+        logo: eCommercePhoto,
       },
       {
         title: "Content Management",
