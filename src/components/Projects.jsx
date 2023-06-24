@@ -72,6 +72,7 @@ const Projects = () => {
                 href={selectProject?.liveLink}
                 target="_blank"
                 className="btn bg-dark_primary text-white mr-3"
+                rel="noreferrer"
               >
                 Live
               </a>
@@ -82,6 +83,7 @@ const Projects = () => {
                 href={selectProject?.codeLink}
                 target="_blank"
                 className="btn bg-dark_primary text-white"
+                rel="noreferrer"
               >
                 Code
               </a>
