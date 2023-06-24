@@ -19,7 +19,7 @@ import creativeDesign from "./assets/images/Services/creative design.png";
 import eCommerce from "./assets/images/Services/e-commerce.png";
 import contentManagement from "./assets/images/Services/content management.png";
 
-import eCommerceProject from "./assets/images/projects/e-commerce.png";
+import eCommerceProject from "./assets/images/projects/e-commerce project.png";
 import crudJsonServer from "./assets/images/projects/crud json server.png";
 import moviesApp from "./assets/images/projects/movies application.png";
 import shoppingCart from "./assets/images/projects/shopping cart.png";
