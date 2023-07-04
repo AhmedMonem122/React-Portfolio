@@ -12,22 +12,26 @@ import { Fragment, useEffect, useState } from "react";
 // Animation package
 import Aos from "aos";
 import "aos/dist/aos.css";
+import ScrollToTop from "./components/ScrollToTop";
 
 const App = () => {
   const [isLoading, setIsLoading] = useState(true);
-
-  useEffect(() => {
-    Aos.init({
-      duration: 1800,
-      offset: 100,
-    });
-  }, []);
 
   useEffect(() => {
     setTimeout(() => {
       setIsLoading(false);
     }, 2500);
   });
+
+  useEffect(() => {
+    setTimeout(() => {
+      Aos.init({
+        duration: 1800,
+        offset: 100,
+        disable: "mobile",
+      });
+    }, 3000);
+  }, []);
 
   return (
     <Fragment>
@@ -49,6 +53,7 @@ const App = () => {
               Made with ♥ by AHMED MONEM &copy; All CopyRights Reserved 2023
             </p>
           </footer>
+          <ScrollToTop />
         </div>
       )}
     </Fragment>
