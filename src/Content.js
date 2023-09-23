@@ -4,6 +4,7 @@ import Hero_person from "./assets/images/Hero/Ahmed Monem.jpg";
 import html from "./assets/images/Skills/html5.png";
 import bootstrap from "./assets/images/Skills/bootstrap.png";
 import js from "./assets/images/Skills/js.png";
+import typescript from "./assets/images/Skills/Typescript.png";
 import reactjs from "./assets/images/Skills/react.png";
 import css from "./assets/images/Skills/css3.png";
 import tailwind from "./assets/images/Skills/tailwind.png";
@@ -19,6 +20,7 @@ import creativeDesign from "./assets/images/Services/creative design.png";
 import eCommercePhoto from "./assets/images/Services/e-commerce.png";
 import contentManagement from "./assets/images/Services/content management.png";
 
+import freshCartApp from "./assets/images/Projects/Fresh Cart React.png";
 import eCommerceProject from "./assets/images/Projects/e-commerce project.png";
 import crudJsonServer from "./assets/images/Projects/crud json server.png";
 import moviesApp from "./assets/images/Projects/movies application.png";
@@ -105,6 +107,11 @@ export const content = {
         logo: js,
       },
       {
+        name: "TypeScript",
+        para: "Lorem ipsum text  dummy",
+        logo: typescript,
+      },
+      {
         name: "Bootstrap",
         para: "Lorem ipsum text  dummy",
         logo: bootstrap,
@@ -183,6 +190,14 @@ export const content = {
     subtitle: "MY CREATION",
     image: person_project,
     project_content: [
+      {
+        title: "Fresh Cart App",
+        image: freshCartApp,
+        description:
+          "A Fresh Cart App is an e-commerce website with a Products ,Categories,Brands a shopping cart system, and a checkout process.",
+        liveLink: "https://fresh-cart-react.vercel.app/",
+        codeLink: "https://github.com/AhmedMonem122/Fresh-Cart-React",
+      },
       {
         title: "E-Commerce",
         image: eCommerceProject,
