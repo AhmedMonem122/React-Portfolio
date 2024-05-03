@@ -12,6 +12,12 @@ import sass from "./assets/images/Skills/sass.png";
 import git from "./assets/images/Skills/git.png";
 import github from "./assets/images/Skills/github.png";
 import redux from "./assets/images/Skills/redux.png";
+import mui from "./assets/images/Skills/MUI.png";
+import nextjs from "./assets/images/Skills/nextjs.png";
+import nodejs from "./assets/images/Skills/nodejs.png";
+import expressjs from "./assets/images/Skills/expressjs_logo.png";
+import mongodb from "./assets/images/Skills/mongodb.png";
+import mongoose from "./assets/images/Skills/mongoose.png";
 
 import websiteAudit from "./assets/images/Services/website audit.png";
 import mobileFriendly from "./assets/images/Services/mobile friendly.png";
@@ -29,6 +35,13 @@ import todoList from "./assets/images/Projects/todolist.png";
 import crudJS from "./assets/images/Projects/crud js.png";
 import yummyBootstrap from "./assets/images/Projects/Yummy bootstrap.png";
 import devFolioProject from "./assets/images/Projects/devfolio project.png";
+import realEstateFreelanceProject from "./assets/images/Projects/Real Estate Website Freelance Project.png";
+import codeAmyTask from "./assets/images/Projects/Codeamy Task UniDorm Design.png";
+import bloodBankProject from "./assets/images/Projects/Blood Bank MultiPage Website.png";
+import notesAppProject from "./assets/images/Projects/Notes App React.png";
+import googleCloneNextProject from "./assets/images/Projects/Google Clone Next.png";
+import noxeMoviesAppProject from "./assets/images/Projects/Noxe Movies App React.png";
+import inifintElRowadFreelanceProject from "./assets/images/Projects/Infinit El-Rowad Freelance Landing Page.png";
 import person_project from "./assets/images/Projects/Ahmed Monem 2.jpg";
 
 import avatar1 from "./assets/images/Testimonials/avatar1.png";
@@ -122,6 +135,11 @@ export const content = {
         logo: tailwind,
       },
       {
+        name: "MUI",
+        para: "Lorem ipsum text  dummy",
+        logo: mui,
+      },
+      {
         name: "Sass",
         para: "Lorem ipsum text  dummy",
         logo: sass,
@@ -145,6 +163,31 @@ export const content = {
         name: "Redux & Redux toolkit",
         para: "Lorem ipsum text  dummy",
         logo: redux,
+      },
+      {
+        name: "NextJS",
+        para: "Lorem ipsum text  dummy",
+        logo: nextjs,
+      },
+      {
+        name: "NodeJS",
+        para: "Lorem ipsum text  dummy",
+        logo: nodejs,
+      },
+      {
+        name: "EXPRESSJS",
+        para: "Lorem ipsum text  dummy",
+        logo: expressjs,
+      },
+      {
+        name: "MongoDB",
+        para: "Lorem ipsum text  dummy",
+        logo: mongodb,
+      },
+      {
+        name: "Mongoose",
+        para: "Lorem ipsum text  dummy",
+        logo: mongoose,
       },
     ],
     icon: MdArrowForward,
@@ -199,6 +242,30 @@ export const content = {
         codeLink: "https://github.com/AhmedMonem122/Fresh-Cart-React",
       },
       {
+        title: "Google Clone NextJS Project",
+        image: googleCloneNextProject,
+        description:
+          "It's a Google Clone Project made with NextJS 14, I used TailwindCSS, React Icons, Google Search API, As you can type any keyword in the search bar and search for anything you want in addition to adding a feeling lucky button which is used to search for a random keyword Plus adding skeleton Loading and Image Search.",
+        liveLink: "https://google-clone-next-indol.vercel.app/",
+        codeLink: "https://github.com/AhmedMonem122/Google-Clone-Next",
+      },
+      {
+        title: "Noxe Movies App with Auth.",
+        image: noxeMoviesAppProject,
+        description:
+          "It's a Movies application with Authentication and Protected Routes, As you can be redirected to the Home Page where you can explore Trending Movies, TV shows and Actors, There are many routes using react router dom as you can visit any of the movies, TV shows and persons routes where you can find that you can search for any of those as you wanted, Find by page, And you can also do a search and find the pages of that specific search.",
+        liveLink: "https://noxe-movie-app-react.vercel.app/",
+        codeLink: "https://github.com/AhmedMonem122/Noxe-Movie-App-React",
+      },
+      {
+        title: "Notes App",
+        image: notesAppProject,
+        description:
+          "Notes App is a CRUD project with Authentication, Protected Routes, As you can see your notes, Add notes, Edit a note and Delete a note.",
+        liveLink: "https://notes-app-react-chi.vercel.app/",
+        codeLink: "https://github.com/AhmedMonem122/Notes-App-React",
+      },
+      {
         title: "E-Commerce",
         image: eCommerceProject,
         description:
@@ -249,6 +316,30 @@ export const content = {
         codeLink: "https://github.com/AhmedMonem122/Crud-System",
       },
       {
+        title: "CodeAmy Task UniDorm Design",
+        image: codeAmyTask,
+        description:
+          "It's a CodeAmy Task made with ReactJS, TailwindCSS, JavaScript, React Icons and React Slick.",
+        liveLink: "https://codeamy-task.vercel.app/",
+        codeLink: "https://github.com/AhmedMonem122/Codeamy-Task",
+      },
+      {
+        title: "Real Estate MultiPage Website",
+        image: realEstateFreelanceProject,
+        description:
+          "It's a bootstrap freelance project, It consists of 3 multiPages in order to access the other 2 pages you can visit /properties.html and /properties-details.html, I used HTML, CSS, Bootstrap, JavaScript, JQuery, Owl Carousel, And I used Pure Counter.js.",
+        liveLink: "https://real-estate-website-orcin.vercel.app/",
+        codeLink: "https://github.com/AhmedMonem122/Real-Estate-Website",
+      },
+      {
+        title: "Blood Bank MultiPage Website",
+        image: bloodBankProject,
+        description:
+          "It's a big bootstrap multiPage website, It consists of 7 multiPages, I used HTML, CSS, Bootstrap, JavaScript, JQuery, And I used Owl Carousel.",
+        liveLink: "https://blood-bank-website-pi.vercel.app/",
+        codeLink: "https://github.com/AhmedMonem122/Blood-Bank-Website",
+      },
+      {
         title: "Yummy Bootstrap Template",
         image: yummyBootstrap,
         description:
@@ -263,6 +354,14 @@ export const content = {
           "It's a React template using React Bootstrap and Bootstrap.",
         liveLink: "https://dev-folio-react-template.vercel.app/",
         codeLink: "https://github.com/AhmedMonem122/DevFolio-React-Template",
+      },
+      {
+        title: "Infinit El-Rowad Landing Page",
+        image: inifintElRowadFreelanceProject,
+        description:
+          "It's a freelance Bootstrap Landing page, I used HTML, CSS, Bootstrap, JavaScript and SwiperJS.",
+        liveLink: "https://infinit-el-rowad.vercel.app/",
+        codeLink: "https://github.com/AhmedMonem122/Infinit-ElRowad",
       },
     ],
   },
